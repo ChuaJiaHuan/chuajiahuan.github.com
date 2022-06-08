@@ -11326,7 +11326,7 @@ p {
 }
 
 .section-heading {
-  text-transform: uppercase;
+  text-transform: none;
 }
 .section-heading .section-heading-upper {
   display: block;

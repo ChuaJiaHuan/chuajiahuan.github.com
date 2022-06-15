@@ -1,0 +1,31 @@
+#container {
+    background-color:lightcyan;
+    padding: 1%;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 33%;
+    margin-top: 2%;
+}
+
+#column1 {
+    width: 33%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}

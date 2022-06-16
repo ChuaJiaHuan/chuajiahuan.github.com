@@ -29,3 +29,12 @@
     margin-top: 2%;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+      width: 100%;
+    }
+  }

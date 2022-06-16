@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo menu menu'
+    'image image image'
+    'feat1 feat2 feat3'
+    'sidebar textcontent textcontent'
+    'footer footer footer';
+    gap: 10px;
+    background-color: lightcyan;
+    padding: 10px;
+    max-width: 480px;
+    margin: auto;
+}
+
+.grid-container > div {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.logo { grid-area: logo; }
+
+.menu { grid-area: menu; }
+
+.image-slideshow { grid-area: image; }
+
+.feat1 { grid-area: feat1; }
+
+.feat2 { grid-area: feat2; }
+
+.feat3 { grid-area: feat3; }
+
+.sidebar { grid-area: sidebar; }
+
+.TextContent { grid-area: textcontent; }
+
+.footer { grid-area: footer; }
+

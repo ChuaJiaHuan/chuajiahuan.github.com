@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo empty phoneno'
+    'logo menu menu'
+    'image image image'
+    'textcontent textcontent sidebar'
+    'footer footer footer';
+    gap: 10px;
+    background-color: lightcyan;
+    padding: 10px;
+    max-width: 480px;
+    margin: auto;
+}
+
+.grid-container > div {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.logo { grid-area: logo; }
+
+.phoneno { grid-area: phoneno; }
+
+.menu { grid-area: menu; }
+
+.image-slideshow { grid-area: image; }
+
+.sidebar { grid-area: sidebar; }
+
+.TextContent { grid-area: textcontent; }
+
+.footer { grid-area: footer; }

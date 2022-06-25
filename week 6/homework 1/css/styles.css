@@ -1,37 +1,23 @@
 #container {
-    position: relative;
     font-family: sans-serif;
-    margin: auto;
-
+    background-image: url(../images/Bg\ Shape@2x.png),url(../images/footer.jpeg);
+    background-position: top right,bottom;
+    background-size: 40%,100%;
+    background-repeat: no-repeat;
 }
 
 .header {
+    display: flex;
     justify-content: space-around;
 }
 
-
-.topleft {
-    display: flex;
-    position: absolute;
-    top: 8px;
-    left: 150px;
-}
-
 .topright {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    background-image: url(../images/Bg\ Shape@2x.png);
-    width: 600px;
-    height: 480px;
-    display: flex;
-    justify-content: center;
-
+    padding: 30px 15px;
 }
 
 .topright a {
     text-decoration: none;
-    padding: 20px 15px;
+    padding: 15px;
     color: white;
 
 }
@@ -41,149 +27,104 @@
     color: aqua;
 }
 
-.topmid {
-    position: relative;
-    right: 0px;
+.topleft {
     display: flex;
-    justify-content: space-between;
+}
+
+.topmid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 .icon {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 250px;
-    gap: 30px;
+    gap: 10px;
 }
 
 .midtext {
     font-size: 20px;
-    position: absolute;
-    top: 250px;
-    left: 150px;
-}
-
-.midtext h4 {
-    display: flex;
-    position: absolute;
-    top: 215px;
-    left: 15px;
-    font-size: medium;
-}
-
-.midtext h4 a {
-    color: white;
-    text-decoration: none;
-}
-
-.midtext h4 a:hover {
-    color: aqua;
-    text-decoration: underline;
-}
-
-.right {
-    position: absolute;
-    left: 900px;
-    top: 100px;
+    width: 40%;
 }
 
 .mouse {
-    position: absolute;
-    top: 600px;
-    left: 750px;
+    display: flex;
+    justify-content: center;
 }
 
 #secondpage {
-    position: relative;
-    top: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(../images/who\ we\ are\ background@2x.png);
 }
 
-.biopic {
-    position: absolute;
-    left: 150px;
-
+.button {
+    background-image: linear-gradient(to right,#000081,#5050DB);
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.biotext {
-    position: absolute;
-    right: 150px;
-    font-size: 20px;
-}
-
-.biotext h3 {
-    color: blueviolet;
-}
-
-.biotext h4 {
-    position: absolute;
-    top: 365px;
-    left: 60px;
-}
-
-.biotext h4 a {
+.button a {
+    text-decoration: none;
     color: white;
+}
+
+.button a:hover {
+    color: aqua;
+}
+
+.button2 {
+    border-style: solid;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 a {
     text-decoration: none;
 }
 
-.biotext h4 a:hover {
+.button2 a:hover {
     color: aqua;
-    text-decoration: underline;
 }
 
 #thirdpage {
-    position: relative;
-    top:1300px;
+    background-image: url(../images/background@2x.png);
 }
 
 .toptext {
-    position: absolute;
-    left: 150px;
-}
-
-.toptext h4 {
-    color: blueviolet;
-}
-
-.toptext h2 {
-    font-weight: bold;
+    margin-left: 100px;
 }
 
 .topboxes {
+    padding: 10px;
     display: flex;
-    position: relative;
-    top: 150px;
     justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-.topboxes a {
-    text-decoration: none;
-    color: white;
-}
-
-.topboxes a:hover {
-    color: aqua;
-    text-decoration: underline;
-}
-
-.box1 h3 {
-    position: absolute;
-    top: 325px;
-    left: 120px;
-}
-
-.box2 h3 {
-    position: absolute;
-    top: 345px;
-    left: 620px;
-}
-
-.box3 h3 {
-    position: absolute;
-    top: 330px;
-    left: 1130px;
+.btmboxes {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .box1 {
+    padding: 20px;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
@@ -192,6 +133,7 @@
 }
 
 .box2 {
+    padding: 20px;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
@@ -200,6 +142,7 @@
 }
 
 .box3 {
+    padding: 20px;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
@@ -207,42 +150,8 @@
     -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
 }
 
-.btmboxes {
-    display: flex;
-    position: relative;
-    top: 200px;
-    justify-content: space-around;
-}
-
-.btmboxes a {
-    color: white;
-    text-decoration: none;
-}
-
-.btmboxes a:hover {
-    color: aqua;
-    text-decoration: underline;
-}
-
-.box4 h3 {
-    position: absolute;
-    top: 310px;
-    left: 120px;
-}
-
-.box5 h3 {
-    position: absolute;
-    top: 350px;
-    left: 610px;
-}
-
-.box6 h3 {
-    position: absolute;
-    top: 320px;
-    left: 1120px;
-}
-
 .box4 {
+    padding: 20px;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
@@ -251,6 +160,7 @@
 }
 
 .box5 {
+    padding: 20px;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
@@ -259,6 +169,7 @@
 }
 
 .box6 {
+    padding: 20px;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
@@ -266,9 +177,11 @@
     -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
 }
 
+h3 {
+    color: blueviolet;
+}
+
 #fourthpage {
-    position: relative;
-    top: 1600px;
     background-color: #D7BDE2;
 }
 
@@ -277,16 +190,14 @@
     text-align: center;
 }
 
-.top h5 {
-    color: blueviolet;
-}
-
 .mid {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .column1 {
+    padding: 10px;
     text-align: center;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
@@ -301,11 +212,8 @@
     font-size: 50px;
 }
 
-.column1 h2 {
-    margin: 50px;
-}
-
 .column2 {
+    padding: 10px;
     text-align: center;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
@@ -320,11 +228,8 @@
     font-size: 50px;
 }
 
-.column2 h2 {
-    margin: 50px;
-}
-
 .column3 {
+    padding: 10px;
     text-align: center;
     border-radius: 25px;
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
@@ -339,50 +244,88 @@
     font-size: 50px;
 }
 
-.column3 h2 {
-    margin: 50px;
-}
-
-.column1 h3 {
-    border-style: solid;
-    border-radius: 50px;
-}
-
-.column2 h3 {
-    position: absolute;
-    top: 465px;
-    left: 700px;
-    color: white;
-}
-
-.column3 h3 {
-    border-style: solid;
-    border-radius: 50px;
-}
-
 #fifthpage {
-    position: relative;
-    top: 1700px;
+    margin-top: 50px;
 }
 
 .toppart {
     text-align: center;
 }
 
-.toppart h4 {
-    color: blueviolet;
-}
-
-.toppart h2 {
-    font-weight: 400;
-}
-
 .btmpart {
+    margin-top: 100px;
     display: flex;
-    position: relative;
-    top: 100px;
     justify-content: space-around;
-    background-image: url(../images/footer.png);
-    background-position: bottom; 
     color: white;
 }
+
+
+@media screen and (max-width: 700px) {
+    .topright a {
+        color: black;
+    }
+
+    .icon {
+        flex-direction: row;
+    }
+
+    .midtext {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .biopic {
+        width: 100%;
+    }
+
+    .biotext {
+        width: 100%;
+    }
+
+    .box1 {
+        margin: 10px;
+    }
+
+    .box2 {
+        margin: 10px;
+    }
+
+    .box3 {
+        margin: 10px;
+    }
+
+    .box4 {
+        margin: 10px;
+    }
+
+    .box5 {
+        margin: 10px;
+    }
+
+    .box6 {
+        margin: 10px;
+    }
+
+    .column1 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .column2 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .column3 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .btmpart {
+        color: burlywood;
+    }
+}
+

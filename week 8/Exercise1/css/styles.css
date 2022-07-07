@@ -1,0 +1,66 @@
+#container {
+    width: 400px;
+    background-color: aquamarine;
+}
+
+.firstrow {
+    padding: 2px;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Email {
+    padding: 2px;
+}
+
+.Phone {
+    padding: 2px;
+}
+
+.fourthrow {
+    padding: 2px;
+    width: 340px;
+}
+
+.fifthrow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.City {
+    padding: 2px;
+}
+
+.Region {
+    padding: 2px;
+}
+
+.sixthrow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PostalCode {
+    padding: 2px;
+}
+
+.Country {
+    padding: 2px;
+    width: 170px;
+}
+
+.sendbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 25%;
+    background-color: green;
+    width: 50px;
+    color: white;
+    border-style: none;
+}

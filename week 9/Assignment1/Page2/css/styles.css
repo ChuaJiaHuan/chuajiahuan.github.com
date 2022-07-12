@@ -1,0 +1,162 @@
+#container {
+    font-family: sans-serif;
+}
+
+#firstsection {
+    margin-bottom: 100px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: black
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.topcontent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.leftintro h1 {
+    font-size: 57px;
+    font-weight: 400
+}
+
+.leftintro p {
+    font-weight: lighter;
+    font-size: 25px;
+    color: gray;
+}
+
+.aboutuni {
+    text-align: center;
+}
+
+.aboutuni {
+    color: red;
+}
+
+.unimidsection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.uniicons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icontext {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.unitext h1 {
+    font-weight: lighter;
+    color: grey;
+}
+
+#secondsection {
+    margin-bottom: 100px;
+}
+
+.topsabah {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.topsabah h1 {
+    color: red;
+}
+
+.topsabah h2 {
+    color: gray;
+    font-weight: lighter;
+}
+
+.midsabah {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+    font-size: 20px;
+    color: gray;
+}
+
+#thirdsection {
+    margin-bottom: 50px;
+}
+
+.footer {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #475F45;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content a {
+    color: white;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: aqua;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-color: #343D33;
+}
+
+@media screen and (max-width: 600px) {
+    .rightintro img {
+        width: 350px;
+        height: 435px;
+    }
+
+    .socialmedia {
+        display: none;
+    }
+
+    .contacts {
+        display: none;
+    }
+}

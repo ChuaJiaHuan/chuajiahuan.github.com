@@ -142,6 +142,15 @@
     color: aqua;
 }
 
+.contacts a {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    color: aqua;
+}
+
 .copyright {
     text-align: center;
     color: white;

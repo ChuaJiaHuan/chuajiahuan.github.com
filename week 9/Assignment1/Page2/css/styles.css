@@ -1,5 +1,7 @@
 #container {
     font-family: sans-serif;
+    max-width: 1500px;
+    margin: auto;
 }
 
 #firstsection {

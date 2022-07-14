@@ -1,5 +1,6 @@
 #container {
     max-width: 1500px;
+    margin: auto;
 }
 
 #firstSection {
@@ -100,23 +101,11 @@
     flex-direction: column;
 }
 
-.food {
+.box {
     display: flex;
     justify-content: space-between;
     border-bottom: solid grey;
     padding-bottom: 30px;
-}
-
-.games {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: solid grey;
-    padding-bottom: 30px;
-}
-
-.contactme {
-    display: flex;
-    justify-content: space-between;
 }
 
 .text {

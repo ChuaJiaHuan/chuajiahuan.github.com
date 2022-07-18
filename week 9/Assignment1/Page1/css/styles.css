@@ -1,4 +1,5 @@
 #container {
+    font-family: sans-serif;
     max-width: 1500px;
     margin: auto;
 }
@@ -198,6 +199,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .rightWelcome {
+        padding: 50px;
+    }
 
     .rightWelcome img {
         width: 350px;

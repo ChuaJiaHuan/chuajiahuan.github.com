@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GamePage</title>
+        <link rel="icon" type="image/x-icon" href="images/rafflesia.png" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/f919cd0be5.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="firstsection">
+                <div class="top">
+                    <div class="logo">
+                        <img src="images/pigeon-clipart-turtle-dove-147294.png" width="50px" />
+                    </div>
+                    <div class="topnav" id="myTopnav">
+                        <a href="../Page1/index.html">HOME</a>
+                        <a href="../Page2/index.html">ABOUT ME</a>
+                        <a href="../Page3/index.html">FOOD</a>
+                        <a href="../Page4/index.html">GAMES</a>
+                        <a href="../Page5/index.html">CONTACT ME</a>
+                        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                            <i id="icon" class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="../Page1/index.html">Home</a>
+                            <a href="../Page2/index.html">About Me</a>
+                            <a href="../Page3/index.html">Food</a>
+                            <a href="../Page4/index.html">Games</a>
+                            <a href="../Page5/index.html">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="topcontent">
+                    <h1>Life is more fun if you play games</h1>
+                    <img src="images/Gamesmainpage.jpg" width="80%"/>
+                </div>
+            </div>
+            <div id="secondsection">
+                <div class="toptitle">
+                    <h1>TYPES OF GAMES THAT I PLAY</h1>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="images/PCgames.jpg" width="280px" height="270px" />
+                        <h2>PC Games</h2>
+                    </div>
+                    <div class="column">
+                        <img src="images/Mobilegames.jpg" width="280px" height="270px" />
+                        <h2>Mobile Games</h2>
+                    </div>
+                    <div class="column">
+                        <img src="images/Consolegames.jpg" width="280px" height="270px" />
+                        <h2>Console Game</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="thirdsection">
+                <div class="toptitle">
+                    <h1>GAMES THAT I PLAY</h1>
+                </div>
+                <div class="games">
+                    <div class="box">
+                        <img src="images/Pokemon.png" width="670px" height="380px" />
+                        <div class="text">
+                            <h3>Pokemon series games like pokemon go, pokemon unite, pokemon mystery dungeon, pokemon arceus and etc.</h3>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/starcraft2.jpg" width="670px" height="380px" />
+                        <div class="text">
+                            <h3>Game from Blizzard entertainment Starcraft 2 and their trilogy. Three races battling against each other to survive.</h3>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/dota2.jpg" width="670px" height="380px" />
+                        <div class="text">
+                            <h3>Dota 2 from valve and the sequel of defense of the ancient from warcraft3 community mod is another game that i play.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fourthsection">
+                <div class="footer">
+                    <div class="socialmedia">
+                        <p>Social Media:</p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/jiahuan.chua/" target="_blank"><img src="images/fblogo.png" width="50px" /></a>
+                            <a href="https://www.instagram.com/chuajiahuan/" target="_blank"><img src="images/instagramlogo.png" width="60px" /></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>Content:</p>
+                        <a href="../Page1/index.html">Home</a>
+                        <a href="../Page2/index.html">About Me</a>
+                        <a href="../Page3/index.html">Food</a>
+                        <a href="../Page4/index.html">Games</a>
+                        <a href="../Page5/index.html">Contact Me</a>
+                    </div>
+                    <div class="contacts">
+                        <a href="tel:+06138517872"><p>Contacts: 013-8517872</p></a>
+                        <p>Address: Lot78, Taman Kemayan,<br>Penampang, JLN Bundusan,<br>88300, Kota Kinabalu, Sabah.</p>
+                        <p>Email: chuajiahuan1226@e.newera.edu.my</p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2022 Chua Jia Huan</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+    
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+    </body>
+</html>

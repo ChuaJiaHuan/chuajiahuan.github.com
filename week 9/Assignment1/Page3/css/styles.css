@@ -1,0 +1,187 @@
+#container {
+    font-family: sans-serif;
+    max-width: 1500px;
+    margin: auto;
+    background-image: url(../images/foodmainpageedited.jpg);
+    background-size: 1500px 1024px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.text {
+    padding-top: 300px;
+    padding-bottom: 600px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.title {
+    padding-left: 50px;
+}
+
+.foodsection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+#secondsection{
+    margin-bottom: 100px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #475F45;
+    background-color: #475F45;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: aqua;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.footer {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #475F45;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content a {
+    color: white;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: aqua;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    color: aqua;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-color: #343D33;
+}
+
+
+@media screen and (max-width: 600px) {
+    .content{
+        display: none;
+    }
+
+    .column img {
+        width: 300px;
+    }
+
+    .title {
+        padding-left: 25px;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ContactMePage</title>
+    <link rel="icon" type="image/x-icon" href="images/rafflesia.png" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f919cd0be5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="firstsection">
+            <div class="top">
+                <div class="logo">
+                    <img src="images/pigeon-clipart-turtle-dove-147294.png" width="50px" />
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="../Page1/index.html">HOME</a>
+                    <a href="../Page2/index.html">ABOUT ME</a>
+                    <a href="../Page3/index.html">FOOD</a>
+                    <a href="../Page4/index.html">GAMES</a>
+                    <a href="../Page5/index.html">CONTACT ME</a>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="../Page1/index.html">Home</a>
+                        <a href="../Page2/index.html">About Me</a>
+                        <a href="../Page3/index.html">Food</a>
+                        <a href="../Page4/index.html">Games</a>
+                        <a href="../Page5/index.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="toppart">
+                <h1>Contact Me</h1>
+                <img src="images/telephone.jpg" width="50%" />
+            </div>
+        </div>
+        <div id="secondsection">
+            <div class="mid">
+                <div class="email">
+                    <div class="text">
+                        <h1>Email:</h1>
+                        <p>chuajiahuan1226@e.newera.edu.my</p>
+                    </div>
+                    <img src="images/email-to-email-letter-icon-with-png-and-vector-format-for-free-466273.png" width="100px" />
+                </div>
+                <div class="phone">
+                    <div class="text">
+                        <h1>Phone:</h1>
+                        <p>013-8517872</p>
+                    </div>
+                    <img src="images/contact-phone-icon-661233.png" width="100px" />
+                </div>
+            </div>
+        </div>
+        <div id="thirdsection">
+            <div class="footer">
+                <div class="socialmedia">
+                    <p>Social Media:</p>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/jiahuan.chua/" target="_blank"><img src="images/fblogo.png" width="50px" /></a>
+                        <a href="https://www.instagram.com/chuajiahuan/" target="_blank"><img src="images/instagramlogo.png" width="60px" /></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Content:</p>
+                    <a href="../Page1/index.html">Home</a>
+                    <a href="../Page2/index.html">About Me</a>
+                    <a href="../Page3/index.html">Food</a>
+                    <a href="../Page4/index.html">Games</a>
+                    <a href="../Page5/index.html">Contact Me</a>
+                </div>
+                <div class="contacts">
+                    <a href="tel:+06138517872"><p>Contacts: 013-8517872</p></a>
+                    <p>Address: Lot78, Taman Kemayan,<br>Penampang, JLN Bundusan,<br>88300, Kota Kinabalu, Sabah.</p>
+                    <p>Email: chuajiahuan1226@e.newera.edu.my</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2022 Chua Jia Huan</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>

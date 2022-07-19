@@ -107,6 +107,7 @@
     justify-content: space-between;
     border-bottom: solid grey;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .text {
@@ -200,13 +201,22 @@
 
 @media screen and (max-width: 600px) {
 
+    .box {
+        border-bottom: none;
+        padding-top: 50px;
+    }
+
+    .leftWelcome {
+        padding-left: 20px;
+    }
+
     .rightWelcome {
         padding: 50px;
     }
 
     .rightWelcome img {
-        width: 350px;
-        height: 435px;
+        width: 300px;
+        height: 400px;
     }
 
     .midLeft img {

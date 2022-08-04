@@ -1,0 +1,456 @@
+/* Background Colour */
+.bg-color-blue {
+    background-color: #69D2E7;
+}
+
+.bg-color-lightblue {
+    background-color: #A7DBD8;
+}
+
+.bg-color-lightyellow {
+    background-color: #E0E4CC;
+}
+
+.bg-color-deepblue {
+    background-color: #161D26;
+}
+
+.bg-color-lightgrey {
+    background-color: #A39E9E;
+}
+
+.bg-color-darkgrey {
+    background-color: #444242;
+}
+
+.bg-color-pink {
+    background-color: #F49191;
+}
+
+.bg-color-lightpurple {
+    background-color: #D5DEFC;
+}
+
+.bg-color-orange {
+    background-color: #F38630;
+}
+
+.bg-color-green {
+    background-color: #00D285;
+}
+
+.bg-color-white-transperent {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+
+/* Font Size(desktop) */
+.p-header{
+    font-size: 24px;
+}
+
+.p-large {
+    font-size: 80px;
+}
+
+.p-regular {
+    font-size: 50px;
+}
+
+.p-small {
+    font-size: 24px;
+}
+
+.button-1{
+    border: solid;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+.whole-size{
+  max-width: 1920px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin-center{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top:25px;
+    margin-bottom:25px;
+    padding-top:50px;
+    padding-bottom:50px
+}
+
+
+/* Header */
+.bugermenu-border{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bugermenu-border2{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.aboutlogo{
+    width: 500px;
+    margin-top: 450px;
+    margin-left: 450px;
+}
+.abouttext{
+    margin-top: 450px;
+    margin-right: 450px;
+    margin-left: 450px;
+    display: flex;
+}
+.thumbimg{
+    width: 150%;
+}
+.redvirus{
+    max-width: 100%;
+}
+
+.bgimg{
+background-image: url('../img/cleveland-clinic-covid19-illustration-logo-2-scaled.png');
+    width: 100%;
+    height: 1008px;
+}
+.bgimg2{
+    background-image: url('../img/909067.jpg');
+    width: 100%;
+}
+.bgimg3{
+    background-color: #A7DBD8;
+}
+.breadcrumbs {
+    padding: 140px 0 60px 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .breadcrumbs:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+  
+  .breadcrumbs h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  .breadcrumbs h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  .paddingtop{
+    padding-top: 500px;
+  }
+
+/* Covid Page */
+
+.dp-flex{
+    display: flex;
+    align-items: center;
+}
+
+.shadow{
+    box-shadow: 5px 5px;
+}
+
+.bg-gap{
+    padding: 30px;
+}
+
+/* Covid 19 Page 1 */
+.background-covid-19-1{
+    width: 100%;
+    background-image: url(../img/Covid_1662021.jpg);
+}
+
+.img-size{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.img-size-2{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#Bio-button{
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#map-card-size{
+    width: 28rem;
+}
+
+.covid-bg-images-2{
+    background-image: url(../img/istockphoto-1308624310-170667a.jpg);
+    background-size: cover;
+}
+
+.DIR-figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      'a b c';
+    background-color: white;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+  }
+.dead-box{
+    grid-area: a;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+.infection-box{
+    grid-area: b;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+.region-box{
+    grid-area: c;
+    border-style: solid;
+    border-color: #00239E;
+    border-radius: 5px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #4BA5F8;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.box-inside {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.box-inside::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid #4BA5F8;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+.left-box {
+    left: 0;
+}
+
+.right-box {
+    left: 50%;
+}
+
+.left-box::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right-box::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right-box::after {
+    left: -13px;
+}
+
+.content {
+    padding-bottom: 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+/* HIV */
+
+.background-HIV-1{
+    width: 100%;
+    background-image: url(../img/hiv\ treatment\ for\ all\ edited.jpg);
+}
+
+@media screen and (max-width: 900px) {
+
+    /* Font Size(tablet) */
+    .p-large {
+        font-size: 45px;
+    }
+
+    .p-regular {
+        font-size: 40px;
+    }
+
+    .dp-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #china-wuhan-map{
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .DIR-figure {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          'a' 
+          'b' 
+          'c';
+        background-color: white;
+        border-style: solid;
+        border-color: #00239E;
+        border-radius: 5px;
+    }
+
+    .timeline::after {
+        left: 31px;
+      }
+    
+
+      .box-inside {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+    
+      .box-inside::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+    
+      .left-box::after, .right-box::after {
+        left: 15px;
+      }
+    
+      .right-box {
+        left: 0%;
+      } 
+
+      .margin-center{
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top:25px;
+        margin-bottom:25px;
+        padding-top:50px;
+        padding-bottom:50px
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    /* Font Size(mobile) */
+    .p-large {
+        font-size: 35px;
+    }
+
+    .p-regular {
+        font-size: 28px;
+    }
+
+    .p-small {
+        font-size: 20px;
+    }
+
+    .dp-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #map-card-size{
+        width: 18rem;
+    }
+
+    .margin-center{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top:25px;
+        margin-bottom:25px;
+        padding-top:50px;
+        padding-bottom:50px
+    }
+    
+}
